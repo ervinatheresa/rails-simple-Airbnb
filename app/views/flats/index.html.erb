@@ -1,0 +1,16 @@
+<h1> All our Flats </h1>
+
+<% @flats.each do |restaurant| %>
+  <%= flat.name %>
+  <%= flat.address %>
+  <%= flat.description %>
+  <%= flat.price_per_night %>
+  <%= flat.number_of_guests %>
+
+
+
+  name
+      t.string :address
+      t.text :description
+      t.integer :price_per_night
+      t.integer :number_of_guests
